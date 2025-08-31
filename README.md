@@ -1,9 +1,9 @@
-## EXLAT-project
-# Customer Churn Prediction Using Machine Learning
-# Project Overview
+# EXLAT-project
+## Customer Churn Prediction Using Machine Learning
+## Project Overview
 This project predicts customer churn for a telecom provider using several machine learning algorithms. Churn prediction helps companies identify customers likely to leave, enabling proactive retention efforts. The workflow covers data loading, preprocessing, visualization, feature engineering, model training, evaluation, and hyperparameter tuning.
 
-# Dataset
+## Dataset
 Source: Telco Customer Churn Dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv)
 
 Rows: 7,043 customers
@@ -12,7 +12,7 @@ Features: 21 columns covering demographics, services, billing, and churn
 
 Target: Churn (Yes/No)
 
-# Installation
+## Installation
 Clone the repository and place the dataset in the project folder.
 
 Install required libraries:
@@ -21,14 +21,14 @@ text
 pip install numpy pandas matplotlib seaborn scikit-learn plotly
 Run the main notebook or script using Python 3.x.
 
-# Project Structure
+## Project Structure
 main.py or .ipynb: Main code for analysis and modeling
 
 WA_Fn-UseC_-Telco-Customer-Churn.csv: Dataset file
 
 Figures and results: Generated during execution
 
-# Data Preprocessing
+## Data Preprocessing
 All columns displayed, overview with shape and column info
 
 TotalCharges converted to numeric, missing values filled with median
@@ -39,7 +39,7 @@ Categorical encoding, including binary mapping and one-hot encoding
 
 Feature scaling for continuous variables (tenure, MonthlyCharges, TotalCharges)
 
-# Modeling
+## Modeling
 Applied multiple algorithms for churn classification:
 
 Logistic Regression: Baseline and tuned via RandomizedSearchCV (best accuracy ~80%)
@@ -62,7 +62,7 @@ Recall
 
 F1-score
 
-# Results
+## Results
 Best model: Tuned Logistic Regression
 
 Accuracy: ~80%
@@ -80,18 +80,18 @@ bash
 python main.py
 Or execute all cells in the notebook for step-by-step analysis.
 
-# Future Work
+## Future Work
 Integrate cross-validation and advanced boosting models
 
 Deploy via API for real-time predictions
 
 Explore deeper feature engineering or external data sources
 
-# Credits
+## Credits
 Example and domain: IBM Telco dataset/Kaggle
 
 Libraries: pandas, numpy, matplotlib, seaborn, plotly, scikit-learn
 
-# License
+## License
 This project is open source under the MIT License (or specify another as needed).
 
