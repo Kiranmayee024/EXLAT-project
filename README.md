@@ -1,4 +1,4 @@
-# EXLAT-project
+## EXLAT-project
 # Customer Churn Prediction Using Machine Learning
 # Project Overview
 This project predicts customer churn for a telecom provider using several machine learning algorithms. Churn prediction helps companies identify customers likely to leave, enabling proactive retention efforts. The workflow covers data loading, preprocessing, visualization, feature engineering, model training, evaluation, and hyperparameter tuning.
